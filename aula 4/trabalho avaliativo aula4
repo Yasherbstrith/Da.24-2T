@@ -1,0 +1,32 @@
+// Defina a funcionalidade: ,Verificar se o número é par ou ímpar
+const nomeDoUser = prompt("Digite seu nome: ")
+const numeroDoUser = Number(prompt("Digite um numero: "))
+
+/* Verificando se o resto da divisão do número é igual a 0
+CASO o resto da divisão for igual a 0, o numero do usuário é par
+CASO contrario o numero é impar
+*/
+
+/*
+TESTE
+if(numeroDoUser % 2 == 0) {
+  alert("o numero é par")
+}
+else {
+    alert("O numero é impar")
+}
+ENTRADA valor invalido como letras ou caracteres por exemplo
+SAÍDA ESPERADA mensagem informado par ou impar
+SAÍDA REAL sempre estava dando impar
+RESULTADO falhou
+ANÁLISE DE RESULTADOS código foi alterado com função de número impar
+*/
+
+if(numeroDoUser % 2 == 0) {
+  alert("o numero é par")
+}
+else if(numeroDoUser % 2 == 1){
+    alert("O numero é impar")
+}else{
+  alert("Digite um número válido")
+}
